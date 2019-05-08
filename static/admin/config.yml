@@ -7,8 +7,8 @@ backend:
 media_library:
   name: cloudinary
   config:
-    cloud_name: 'csmenouvo'
-    api_key: '549872286121994'
+    cloud_name: 'keoem'
+    api_key: '329214844472392'
 
 collections:
   - name: 'posts'
