@@ -1,18 +1,18 @@
 module.exports = {
-  defaultTitle: 'doananh234',
-  url: 'https://anhdoan.com',
-  logo: 'https://doananh234.com/favicon/logo-48.png',
-  title: 'Blog by Anh Doan',
+  defaultTitle: 'keoem',
+  url: 'https://keoem.netlify.com',
+  logo: 'https://keoem.netlify.com/favicon/logo-48.png',
+  title: 'Blog by Keo Em',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
-  legalName: 'Anh Doan',
+  legalName: 'Keo Em',
   defaultDescription:
-    "I'm Anh Doan aka doananh234, a self-taught Graphic and full stack developer, interested in the web, neural networks & tech in general.",
+    "I'm Keo Em aka keoem, a self-taught Graphic and full stack developer, interested in the web, neural networks & tech in general.",
   socialLinks: {
-    twitter: 'https://twitter.com/doananh234',
-    github: 'https://github.com/doananh234',
-    linkedin: 'https://www.linkedin.com/in/anh-doan-83b116138/',
-    instagram: 'https://www.instagram.com/doananh234/',
+    twitter: 'https://twitter.com/keoem',
+    github: 'https://github.com/keoem',
+    linkedin: 'https://www.linkedin.com/in/keoem/',
+    instagram: 'https://www.instagram.com/keoem/',
     youtube: 'https://www.youtube.com/channel/UCvNqtyEGfXfWcKVdcO6QvcQ',
   },
   googleAnalyticsID: 'UA-88875900-1',
@@ -37,7 +37,7 @@ module.exports = {
   ],
   social: {
     facebook: '100000217272538',
-    twitter: '@doananh234',
+    twitter: '@keoem',
   },
   address: {
     city: 'Da Nang',
@@ -46,9 +46,9 @@ module.exports = {
     zipCode: '550000',
   },
   contact: {
-    email: 'doananh234@gmail.com',
+    email: 'keoem@gmail.com',
     phone: '+84789472011',
   },
   foundingDate: '2018',
-  author: 'Anh Doan',
+  author: 'Keo Em',
 };

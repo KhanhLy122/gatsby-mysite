@@ -16,14 +16,14 @@ const Details = () => (
     {({ theme }) => (
       <Wrapper as={Container}>
         <Text theme={theme}>
-          {`I’m Anh Doan, also known as doananh234, I’m a self-taught Graphic and full stack
+          {`I’m Ly, also known as keoem, I’m a self-taught Graphic and full stack
           developer. I'm really interested in Technology. Science including mathematics, physics
           science belong to my interests as well, you can know more about me by reading my `}
           {/* <Link to="/blog">articles</Link>. */}
         </Text>
         <Text theme={theme}>
           {"Currently I'm working remotely at "}
-          <a href="https://enouvo.com/?ref=doananh234" target="_blank" rel="noopener noreferrer">
+          <a href="https://enouvo.com/?ref=keoem" target="_blank" rel="noopener noreferrer">
             Enouvo IT Solutions
           </a>
           {' '}
@@ -33,11 +33,11 @@ const Details = () => (
         <DetailsContainer>
           <P theme={theme}>
             <Img src={theme === 'dark' ? EnvelopeWhite : Envelope} alt="email" />
-            doananh234@gmail.com
+            keoem@gmail.com
           </P>
           <P theme={theme}>
             <Img src={theme === 'dark' ? PhoneWhite : Phone} alt="phone" />
-            +84789472011
+            +84336130814
           </P>
           <P theme={theme}>
             <Img src={theme === 'dark' ? MarkerWhite : Marker} alt="address" />

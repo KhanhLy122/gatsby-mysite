@@ -5,10 +5,9 @@ backend:
 # media_folder: 'static/media'
 # public_folder: '/media'
 media_library:
-  name: cloudinary
+  name: uploadcare
   config:
-    cloud_name: 'csmenouvo'
-    api_key: '549872286121994'
+    publicKey: '3e5428b1b72450a3ac12'
 
 collections:
   - name: 'posts'
