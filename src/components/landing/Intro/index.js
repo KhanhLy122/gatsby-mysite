@@ -29,7 +29,7 @@ const IntroUI = ({ t }) => {
           </div>
           <div className="rightIntro">
             <img
-              alt="anhdoan"
+              alt="khanhly"
               src="https://res.cloudinary.com/csmenouvo/image/upload/v1557033126/developer.png"
             />
           </div>
