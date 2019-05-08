@@ -20,9 +20,9 @@ const NavbarLinks = ({ desktop }) => {
           <Link to="/project" activeClassName="current">
             Project
           </Link>
-          {/* <Link to="/blog/" activeClassName="current">
+          <Link to="/blog" activeClassName="current">
             Blog
-          </Link> */}
+          </Link>
           <Link to="/contact" activeClassName="current">
             Contact
           </Link>

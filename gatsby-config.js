@@ -9,12 +9,6 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-if (!process.env.GITHUB_TOKEN) {
-  require('dotenv').config({
-    path: '.env',
-  });
-}
-
 module.exports = {
   siteMetadata: {
     siteUrl: config.url,
@@ -42,24 +36,6 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-sitemap',
     'gatsby-transformer-yaml',
-    {
-      resolve: 'gatsby-source-graphql',
-      options: {
-        typeName: 'GitHub',
-        fieldName: 'github',
-        createLink: () => createHttpLink({
-            uri: 'https://api.github.com/graphql',
-            headers: {
-              Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
-            },
-            fetch,
-          }),
-        createSchema: async() => {
-          const json = JSON.parse(fs.readFileSync(`${__dirname}/github.json`));
-          return buildClientSchema(json.data);
-        },
-      },
-    },
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
@@ -232,6 +208,7 @@ module.exports = {
             site {
               siteMetadata {
                 url
+                siteUrl
               }
             }
             allSitePage(

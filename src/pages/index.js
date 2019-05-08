@@ -2,7 +2,7 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { Layout, SEO } from '../components/common';
 import {
- Intro, Skills, Work, Services, Github,
+ Intro, Skills, Work, Services,
 } from '../components/landing';
 import themeConfig from '../config/theme';
 import '../i18n';
@@ -15,7 +15,6 @@ const IndexPage = () => (
       <Skills />
       <Services />
       <Work />
-      <Github />
     </Layout>
   </ThemeProvider>
 );
